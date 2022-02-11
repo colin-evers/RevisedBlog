@@ -6,6 +6,7 @@ body {
   margin-top: 5rem;
 }
 
+
 backdrop{
   position: absolute;
   top:    0px;
@@ -19,6 +20,16 @@ backdrop{
   z-index: 0;
 }
 
+
+._backdrop { 
+  background: url(img/stocks.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* 02/11/22
 ._backdrop{
   /*position: absolute;*/
   top:    0px;
@@ -33,7 +44,7 @@ backdrop{
   background-size: cover;
   z-index: 0;
 }
-
+*/
 
 .adjust-border1{
   padding-right: 15px;
